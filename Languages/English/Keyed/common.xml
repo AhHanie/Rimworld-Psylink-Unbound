@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <PsylinkUnbound.LoadingLabel>Psylink Unbound Loading</PsylinkUnbound.LoadingLabel>
+    <PsylinkUnbound.SettingsTitle>Psylink Unbound</PsylinkUnbound.SettingsTitle>
+    <PsylinkUnbound.MaxLevelLabel>Maximum psylink level: {0}</PsylinkUnbound.MaxLevelLabel>
+    <PsylinkUnbound.ReductionLabel>Psyfocus cost reduction per level: {0}</PsylinkUnbound.ReductionLabel>
+    <PsylinkUnbound.ExampleLabel>Example: at the maximum level ({0}), a psycast that normally costs {1} psyfocus would cost {2}.</PsylinkUnbound.ExampleLabel>
+</LanguageData>

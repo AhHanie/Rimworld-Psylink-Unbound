@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Psylink Unbound</name>
+    <author>Sk</author>
+    <packageId>sk.psyunbound</packageId>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>Psylink Unbound raises the psylink level cap and makes each level reduce your psycasts' psyfocus cost, without changing vanilla's psyfocus bar itself. Both the cap and the discount per level are configurable, and the discount also applies to Vanilla Psycasts Expanded's psycasts if installed.</description>
+    <modVersion>1.0.0</modVersion>
+    <url>https://steamcommunity.com/sharedfiles/filedetails/?id=3797085822</url>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>Royalty</displayName>
+        </li>
+    </modDependencies>
+</ModMetaData>
