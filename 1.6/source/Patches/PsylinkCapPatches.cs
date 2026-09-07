@@ -9,6 +9,11 @@ namespace Psylink_Unbound
     {
         public static void ApplyCap()
         {
+            if (VpePresence.IsActive())
+            {
+                return;
+            }
+
             HediffDef amplifier = HediffDefOf.PsychicAmplifier;
             if (amplifier == null)
             {
@@ -23,6 +28,11 @@ namespace Psylink_Unbound
     [HarmonyPatch(typeof(Hediff_Psylink), nameof(Hediff_Psylink.TryGiveAbilityOfLevel))]
     public static class Hediff_Psylink_TryGiveAbilityOfLevel_Patch
     {
+        public static bool Prepare()
+        {
+            return !VpePresence.IsActive();
+        }
+
         public static bool Prefix(int abilityLevel)
         {
             bool anyDefined = DefDatabase<AbilityDef>.AllDefsListForReading.Any(a => a.IsPsycast && a.level == abilityLevel);

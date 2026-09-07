@@ -15,6 +15,15 @@ namespace Psylink_Unbound
             listing.Label("PsylinkUnbound.MaxLevelLabel".Translate(ModSettings.maxPsylinkLevel));
             ModSettings.maxPsylinkLevel = Mathf.RoundToInt(listing.Slider(ModSettings.maxPsylinkLevel, ModSettings.MinPsylinkLevel, ModSettings.MaxPsylinkLevelCap));
 
+            if (VpePresence.IsActive())
+            {
+                Text.Font = GameFont.Tiny;
+                GUI.color = Color.gray;
+                listing.Label("PsylinkUnbound.MaxLevelControlledByVpe".Translate());
+                GUI.color = Color.white;
+                Text.Font = GameFont.Small;
+            }
+
             listing.Gap();
 
             listing.Label("PsylinkUnbound.ReductionLabel".Translate(ModSettings.psyfocusCostReductionPerLevel.ToStringPercent()));

@@ -5,4 +5,5 @@
     <PsylinkUnbound.MaxLevelLabel>Maximum psylink level: {0}</PsylinkUnbound.MaxLevelLabel>
     <PsylinkUnbound.ReductionLabel>Psyfocus cost reduction per level: {0}</PsylinkUnbound.ReductionLabel>
     <PsylinkUnbound.ExampleLabel>Example: at the maximum level ({0}), a psycast that normally costs {1} psyfocus would cost {2}.</PsylinkUnbound.ExampleLabel>
+    <PsylinkUnbound.MaxLevelControlledByVpe>Vanilla Psycasts Expanded is loaded. It controls the maximum psycaster level, so this setting has no effect.</PsylinkUnbound.MaxLevelControlledByVpe>
 </LanguageData>

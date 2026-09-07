@@ -7,7 +7,7 @@
         <li>1.6</li>
     </supportedVersions>
     <description>Psylink Unbound raises the psylink level cap and makes each level reduce your psycasts' psyfocus cost, without changing vanilla's psyfocus bar itself. Both the cap and the discount per level are configurable, and the discount also applies to Vanilla Psycasts Expanded's psycasts if installed.</description>
-    <modVersion>1.0.0</modVersion>
+    <modVersion>1.0.1</modVersion>
     <url>https://steamcommunity.com/sharedfiles/filedetails/?id=3797085822</url>
     <modDependencies>
         <li>
